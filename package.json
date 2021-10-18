@@ -1,0 +1,22 @@
+{
+  "name": "infra-arch",
+  "version": "1.0.0",
+  "description": "infra and core arch",
+  "main": "bin/www.js",
+  "scripts": {
+    "dev": "nodemon bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ajit",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0",
+    "validator": "^13.6.0"
+  }
+}
