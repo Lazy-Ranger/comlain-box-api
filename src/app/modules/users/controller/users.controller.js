@@ -47,12 +47,12 @@ class UsersController {
     }
   };
 
-  updateUsers = async (req, res) => {
+  updateTimeSheet = async (req, res) => {
     const userSession = req.user;
     const updateReq = req.body;
 
     try {
-      await this.usersService.updateUserById(userSession._id, updateReq);
+      await this.usersService.updateTimeSheetById(userSession._id, updateReq);
 
       httpOK(res);
     } catch (err) {
