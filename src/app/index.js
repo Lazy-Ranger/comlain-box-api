@@ -23,4 +23,3 @@ class ExpressApp {
   }
 }
 module.exports = ExpressApp;
-

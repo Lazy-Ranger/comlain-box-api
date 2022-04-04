@@ -58,4 +58,5 @@ module.exports = {
   UnprocessableEntityException,
   ServiceUnavailableException,
   UnsupportedMediaTypeException,
+  ServiceUnavailableException,
 };
